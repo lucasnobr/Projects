@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    width: 920px;
+    margin: 0px auto;
+}
+
+/***** Formatação do Cabeçalho *****/
+
+#header{
+    height: 140px;
+}
+
+#menu{
+    text-align: left;
+    padding: 10px;
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    padding-right: 50px;
+}
+
+/* Menu */
+
+#menu a:link, #menu a:visited{
+    text-decoration: none;
+    margin: 10px;
+    color: #003300;
+    font-weight: bold;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+
+/***** Formatação do Conteúdo Principal *****/
+
+/* Capa */
+
+#coverpic1{
+    width: 550px;
+    height: 404px;
+    float: left;
+}
+
+#coverpic2{
+    width: 160px;
+    height: 220px;
+    position: relative;
+    left: 20px;
+    top: 213px;
+}
+
+#coverpic3{
+    width: 170px;
+    height: 150px;
+    position: relative;
+    left: 35px;
+    top: 143px;
+    margin-top: 10px;
+}
+
+#coverunderline1{
+    position: relative;
+    top: 10px;
+}
+
+#covertext{
+    position: relative;
+    bottom: 240px;
+    left: 20px;
+    color: #003300;
+}
+
+#coverunderline2{
+    position: relative;
+    top: 0px;
+    right: 5px;
+}
+
+/* Newsletter */
+
+#newsletter{
+    background: #003300;
+    height: 140px;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+#newslettertitle{
+    color: white;
+    padding-top: 30px;
+}
+#emailinput{
+        margin: 60px auto;
+        height: 40px;
+        margin: 30px 10px;
+        width: 200px;
+        padding-left: 10px;
+}
+
+#emailsubmit{
+    height: 45px;
+    width: 200px;
+    border-radius: 0%;
+}
+
+/* Serviços */
+
+.services{
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    width: 191px;
+    float: left;
+    padding: 10px;
+    color: #003300;
+}
+
+.servicestitle{
+    text-align: center;
+    padding: 5px;
+    color: #003300;
+}
+
+.servicestext{
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    color: #003300;
+}
+
+.servicesmaterials{
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    width: 192px;
+    float: left;
+    padding: 10px;
+    color: #003300;
+}
+
+/* COMO TRABALHAMOS */
+
+#work{
+    clear: both;
+}
+
+#worktitle{
+    width: 50%;
+    float: left;
+    color: #003300;
+}
+
+#worktext{
+    width: 50%;
+    float: right;
+    text-align: justify;
+    color: #003300;
+    margin-bottom: 60px;
+}
+
+/* GALERIA DE FOTOS */
+
+#gallery{
+    clear: both;
+    background-color: white;
+    margin-top: 40px;
+}
+
+#mainpicture{
+    width: 700px;
+    position: relative;
+    left: 112px;
+}
+
+#sidepictures{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sidepics{
+    float: left;
+    width: 165px;
+    height: 165px;
+    margin-right: 20px;
+}
+
+#gallerylink{
+    float: left;
+    width: 165px;
+    height: 145px;
+    background: white;
+}
+
+#gallerylink a, #gallerylink a:visited{
+    text-decoration: none;
+    color: #003300;
+    font-weight: 900;
+    margin: 0px auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.galleryunderline{
+    text-align: left;
+}
+
+/***** Formatação do Rodapé *****/
+
+#footer{
+    clear: both;
+    background: white;
+    margin-top: 250px;
+    margin-bottom: 40px;
+}
+
+#footerlogo{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px auto;
+    position: relative;
+    left: 400px;
+}
+
+#rights{
+    text-align: center;
+    padding: 10px;
+    color: #003300;
+}
