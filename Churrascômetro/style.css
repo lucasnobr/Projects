@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "clarkson";
+    src: url(./fonts/ClarksonScript-Regular.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 45vh;
+    height: 100vh;
+    padding: 10px;
+}
+
+#maintitle{
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    font-size: 6.5vh;
+    font-family: "clarkson";
+    color: orangered;
+    margin-bottom: 10%;
+}
+
+input{
+    width: 90%;
+    height: 4vh;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+}
+
+button{
+    width: 90%;
+    height: 4vh;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    font-size: 6.5vh;
+    font-family: "clarkson";
+    color: orangered;
+    margin-bottom: 10%;
+}
+
+.paragrafo{
+    background-color: white;
+    width: 90%;
+    height: 4vh;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+}
